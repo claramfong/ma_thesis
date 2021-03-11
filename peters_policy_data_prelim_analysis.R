@@ -1,8 +1,6 @@
 library(tidyverse)
-install.packages("here")
+# install.packages("here")
 library(here)
-
-setwd("~/Desktop/College/year 4/INRE 30000/Low-Skill Immigration Policy Dataset")
 
 policy_df <- read_csv(
   url("https://dataverse.harvard.edu/api/access/datafile/:persistentId?persistentId=doi:10.7910/DVN/XTSNW0/6PDQZC")
